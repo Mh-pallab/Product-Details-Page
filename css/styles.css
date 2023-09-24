@@ -1,0 +1,63 @@
+.container-fluid {
+  padding: 0 5%;
+}
+
+.cartButton {
+  border-radius: 50px;
+  background-color: rgba(244, 15, 111, 1);
+  margin-left: 30px;
+}
+
+.searchInput {
+  border-radius: 50px;
+  border-color: rgba(239, 60, 139, 1);
+  size: 360px;
+}
+
+.virticalLine {
+  border: 0.5px solid rgba(0, 0, 0, 0.6);
+  height: 80%;
+  width: 0.5px;
+  position: absolute;
+  top: 8px;
+  right: 95px;
+}
+
+.navbar {
+  border-bottom: 0.3px solid rgba(0, 0, 0, 0.25);
+}
+
+.catagoriesDropdown {
+  background-color: rgba(245, 204, 220, 1);
+  border-radius: 0;
+  width: 240px;
+  height: 45px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.catagories {
+  height: 45px;
+  border-bottom: 0.3px solid rgba(0, 0, 0, 0.25);
+}
+
+.categoriesButtons {
+  margin-top: 6px;
+}
+.offersButton {
+  background-color: rgba(71, 29, 107, 1);
+  color: white;
+  border-radius: 30px;
+}
+
+.sellerButton {
+  background-color: rgba(235, 90, 154, 1);
+  color: white;
+  border-radius: 30px;
+}
+
+.campaignButton {
+  background-color: rgba(145, 59, 219, 1);
+  color: white;
+  border-radius: 30px;
+}
