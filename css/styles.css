@@ -61,3 +61,48 @@
   color: white;
   border-radius: 30px;
 }
+
+.horizontalLine {
+  height: 0.5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.productCard {
+  border: none;
+}
+
+.btn-outline-dark:hover {
+  border-color: rgba(244, 15, 111, 1);
+  background-color: white;
+  color: rgba(244, 15, 111, 1);
+}
+
+.btn-outline-primary {
+  border-color: rgba(244, 15, 111, 1);
+}
+
+.btn-outline-primary:hover {
+  background-color: white;
+  border-color: rgba(244, 15, 111, 1);
+  color: rgba(244, 15, 111, 1);
+}
+
+.buyButton {
+  background-color: rgba(145, 59, 219, 1);
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+}
+
+.addButton {
+  background-color: rgba(244, 15, 111, 1);
+  width: 200px;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.productImg {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
