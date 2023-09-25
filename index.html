@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Details</title>
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -66,14 +71,7 @@
 
     <div class="container-fluid">
         <p>Healthcare & Beauty > Skin Care > Aroma Magic Neem and Tea Tree Face Wash (150 ml)</p>
-        <div class="row">
-            <div class="col-lg-6 text-center">
-                <img src="pictures/productImg.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-6">
 
-            </div>
-        </div>
 
         <div class="card productCard mb-3">
             <div class="row g-0">
@@ -82,25 +80,28 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="card-body">
-                        <h1>Aroma Magic Neem and Tea Tree Face Wash (150 ml)</h1>
+                        <h1 class="productName">Aroma Magic Neem and Tea Tree Face Wash (150 ml)</h1>
                         <p><small><strong>Brand:</strong> tee tree</small></p>
                         <p>⭐⭐⭐⭐⭐(16 Customer Reviews)</p>
-                        <p>✅ Available in stock</p>
-                        <h3>৳ 1250.00</h3>
+                        <p class="productStock">✅ Available in stock</p>
+                        <div>
+                            <h3 class="productPrice">৳ 1250.00</h3>
 
-                        <p>৳ 1250.00</p>
-                        <p>(-45%)</p>
+                            <p class="productPriceBefore">৳ 1250.00</p>
+                            <p class="productDiscoundPercent">(-45%)</p>
+                        </div>
+
 
                         <div class="horizontalLine"></div>
 
-                        <p>Select Size</p>
+                        <p style="font-weight: 600;" class="selectSize">Select Size</p>
                         <button type="button" class="btn btn-outline-dark btn-sm me-2">150ml</button>
                         <button type="button" class="btn btn-outline-dark btn-sm me-2">200ml</button>
                         <button type="button" class="btn btn-outline-dark btn-sm me-2">250ml</button>
                         <button type="button" class="btn btn-outline-dark btn-sm me-2">300ml</button>
 
                         <div class="quantity">
-                            <label for="quantityButton">Quantity</label>
+                            <label style="font-weight: 600;" for="quantityButton">Quantity</label>
 
                             <div class="btn-group  me-2" id="quantityButton" role="group"
                                 aria-label="Small button group">
@@ -111,24 +112,31 @@
 
                                 <button type="button" class="btn btn-outline-primary">+</button>
                             </div>
+                        </div>
 
-                            <div class="horizontalLine"></div>
+                        <div class="horizontalLine"></div>
 
-                            <div class="bigButtons">
-                                <button class="btn btn-bg buyButton">BUY NOW</button>
-                                <button class="btn btn-bg addButton">ADD TO CART</button>
-                                <a class="shareIcon" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                        <div class="bigButtons">
+                            <button class="btn btn-bg buyButton">BUY NOW</button>
+                            <button class="btn btn-bg addButton">ADD TO CART</button>
+                            <a class="shareIcon" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                        </div>
+
+                        <div class="bottomText">
+                            <div>
+                                <i style="color: rgba(244, 15, 111, 1);" class="fa-solid fa-money-bill"></i>
+                                <p>Cash On
+                                    Delivery Available</p>
+                            </div>
+                            <div>
+                                <i style="color: rgba(244, 15, 111, 1);" class=" fa-solid fa-circle-info"></i>
+                                <p>Minimum
+                                    service charge 60tk (<=1kg) only for Dhaka and Chottogram, outside this area service
+                                        charge will be 80tk (<=1kg). 20tk will be added after per kg. </p>
                             </div>
 
 
-                            <p><i class="fa-solid fa-money-bill"></i> Cash On Delivery Available</p>
-
-                            <p><i class="fa-solid fa-circle-info"></i> Minimum service charge 60tk (<=1kg) only for
-                                    Dhaka and Chottogram, outside this area service charge will be 80tk (<=1kg). 20tk
-                                    will be added after per kg.</p>
                         </div>
-
-                        <h1>hello</h1>
 
                     </div>
                 </div>
@@ -136,6 +144,165 @@
         </div>
     </div>
 
+
+    <div class="container-fluid">
+
+        <!-- product details part -->
+        <div class="details rounded-top">
+            <div></div>
+            <h3>Product details of Aroma Magic Neem and Tea Tree Face Wash (150 ml)</h3>
+        </div>
+
+        <!-- discription buttons -->
+        <div class="d-flex  justify-content-around border border-top-0 productButtons">
+            <button>Product Description</button>
+            <button>How to use</button>
+            <button>Ingredients</button>
+            <button>Reviews (23)</button>
+            <button>Return Policy</button>
+        </div>
+        <!-- product details part ends -->
+
+        <div class="container-fluid border border-top-0">
+
+            <!-- reviews buttons -->
+            <div class="customerReivews d-flex justify-content-between">
+                <h5 style="display: flex; align-items: center;" class="align-middle">Customer Reviews (23)</h5>
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sort by: Newest
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- reviews section starts -->
+            <div class="reviews">
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+                    <div class="horizontalLine"></div>
+                </div>
+                <!-- single review ends -->
+
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+                    <div class="horizontalLine"></div>
+                </div>
+                <!-- single review ends -->
+
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+                    <div class="horizontalLine"></div>
+                </div>
+                <!-- single review ends -->
+
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+                    <div class="horizontalLine"></div>
+                </div>
+                <!-- single review ends -->
+
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+                    <div class="horizontalLine"></div>
+                </div>
+                <!-- single review ends -->
+
+                <!-- single review start -->
+                <div class="row singleReviews">
+
+                    <div class="col-auto me-auto profileImg">
+                        <img style="background-color: gray;" src="pictures/Vector.png" alt="">
+                    </div>
+                    <div class="col reviewsData">
+                        <p class="name">Vinod Kumar</p>
+                        <p class="verified">✅ Verified Purchase</p>
+                        <p class="date">20 July 2023</p>
+                        <p style="margin-bottom: 7px;">⭐⭐⭐⭐⭐</p>
+                        <p class="message">Not so good. doesn’t remove make up properly. Burns on my dry to combination
+                            skin. I wouldn’t
+                            buy this one second time.</p>
+                    </div>
+
+                </div>
+                <!-- single review ends -->
+            </div>
+            <!-- reviews section ends -->
+
+        </div>
+
+
+    </div>
 
 
 

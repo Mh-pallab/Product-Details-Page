@@ -2,6 +2,10 @@
   padding: 0 5%;
 }
 
+.body {
+  font-family: "Inter", sans-serif;
+}
+
 .cartButton {
   border-radius: 50px;
   background-color: rgba(244, 15, 111, 1);
@@ -71,6 +75,14 @@
   border: none;
 }
 
+.btn-outline-dark {
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
 .btn-outline-dark:hover {
   border-color: rgba(244, 15, 111, 1);
   background-color: white;
@@ -105,4 +117,152 @@
   object-fit: cover;
   height: 100%;
   width: auto;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.productStock {
+  color: rgba(32, 191, 6, 1);
+  margin: 1px 0 10px;
+}
+
+.productPrice {
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.productPriceBefore {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: line-through;
+}
+
+.productDiscoundPercent {
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.horizontalLine {
+  margin: 15px 0;
+}
+
+.selectSize {
+  margin-bottom: 10px;
+}
+
+#quantityButton {
+  margin-left: 10px;
+}
+
+.btn-bg {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.shareIcon {
+  float: right;
+}
+
+.bottomText p {
+  display: inline;
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottomText i {
+  display: inline;
+  background-color: rgba(255, 241, 244, 1);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.bottomText div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-top: 100px;
+  background-color: rgba(255, 241, 244, 1);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.details div {
+  height: 30px;
+  width: 5px;
+  background-color: rgba(244, 15, 111, 1);
+  margin: 0 15px 0 20px;
+  border-radius: 3px;
+}
+
+.details h3 {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.productButtons button {
+  background-color: white;
+  border: none;
+}
+
+.productButtons {
+  height: 60px;
+}
+
+.productButtons button:hover {
+  color: rgba(244, 15, 111, 1);
+  border-bottom: 1px solid rgba(244, 15, 111, 1);
+}
+
+.customerReivews {
+  height: 50px;
+  padding: 40px 0;
+}
+
+.reviewsData .name {
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+}
+
+.reviewsData .verified {
+  color: rgba(32, 191, 6, 1);
+  display: inline;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.reviewsData .date {
+  font-weight: 400;
+  font-size: 10;
+  margin-bottom: 8px;
+}
+
+.reviewsData .message {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.singleReviews {
+  margin-bottom: 30px;
+}
+
+.profileImg img {
+  padding: 3px;
+  border-radius: 50%;
 }
