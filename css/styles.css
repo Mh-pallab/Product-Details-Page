@@ -307,3 +307,64 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.addButtoon {
+  width: 30%;
+  background-color: rgba(255, 191, 205, 1);
+  color: rgba(244, 15, 111, 1);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.addCounter {
+  width: 40%;
+}
+
+.productListCard {
+  padding: 20px;
+}
+
+.cardProductName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cardProductPrice {
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.cardProductPriceBefore {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.cardProductDiscount {
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.cardProductStars {
+  margin-bottom: 5px;
+}
+
+.relatedProducts h4 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.col .card {
+  border-color: rgba(255, 135, 166, 1);
+}
+
+footer {
+  background-color: rgba(54, 19, 84, 1);
+}
