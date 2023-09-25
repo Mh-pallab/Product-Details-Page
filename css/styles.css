@@ -266,3 +266,44 @@
   padding: 3px;
   border-radius: 50%;
 }
+
+.btn-outline-denger {
+  border-color: rgba(145, 59, 219, 1);
+  color: rgba(145, 59, 219, 1);
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.btn-outline-denger:hover {
+  background-color: rgba(145, 59, 219, 1);
+  color: white;
+}
+
+.reviewForm {
+  margin-top: 30px;
+}
+
+.addReviewTxt h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.addReviewTxt p:first-child {
+  font-size: 12;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.addReviewTxt {
+  margin-bottom: 35px;
+}
+
+.commentsInput {
+  margin-bottom: 2rem;
+}
+
+.submitReviewButton {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
